@@ -1,0 +1,75 @@
+@font-face {
+  font-family: poppins;
+  src: url(poppins/Poppins-Medium.ttf);
+}
+
+* {
+  font-family: poppins;
+  box-sizing: border-box;
+}
+
+.flex-container {
+  background-color: green;
+  height: 400px;
+  width: 370px;
+  border-radius: 26px;
+}
+
+.flex-container div {
+  margin-left: 25px;
+}
+
+.main-image > img {
+  width: 321px;
+  height: 161px;
+  margin: 20px 24px 20px 0;
+}
+
+p {
+  font-size: 16px;
+  margin: 0;
+}
+
+.title {
+  height: 22px;
+}
+
+.title > p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.traveller {
+  display: flex;
+  gap: 15px;
+  margin-top: 13px;
+  height: 20px;
+}
+
+.traveller p:first-child {
+  border-right: 1px solid lightgray;
+  padding-right: 5px;
+}
+
+.lightgray {
+  color: lightgray;
+}
+
+.icons {
+  display: flex;
+  gap: 18px;
+  margin-top: 21px;
+  height: 36px;
+}
+
+.icons > img {
+  width: 36px;
+  height: 36px;
+}
+
+.people {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+  height: 20px;
+}
